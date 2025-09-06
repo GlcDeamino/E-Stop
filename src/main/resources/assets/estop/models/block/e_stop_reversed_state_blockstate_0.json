@@ -1,0 +1,10 @@
+{
+  "parent": "estop:custom/e-stop_pressed",
+  "textures": {
+    "all": "estop:block/e-stop",
+    "particle": "estop:block/e-stop",
+    "0": "estop:block/e-stop",
+    "1": "estop:block/e_stop_frame"
+  },
+  "render_type": "solid"
+}

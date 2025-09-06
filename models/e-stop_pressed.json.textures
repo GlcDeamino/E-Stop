@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "e-stop",
+        "1": "e_stop_frame"
+      },
+      "name": "default"
+    }
+  }
+}

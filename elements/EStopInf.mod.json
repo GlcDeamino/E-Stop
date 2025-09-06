@@ -1,0 +1,18 @@
+{
+  "_fv": 79,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      {
+        "value": "CUSTOM:EStop"
+      },
+      {
+        "value": "CUSTOM:EStopReversed"
+      }
+    ],
+    "information": [
+      "When right-click the e-stop button, it will turn activate",
+      "In order to disactive it, you need to right-click it when you are sneaking"
+    ]
+  }
+}

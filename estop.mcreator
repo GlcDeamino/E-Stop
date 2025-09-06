@@ -1,0 +1,243 @@
+{
+  "mod_elements": [
+    {
+      "name": "EStopRedstone",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_stop_redstone",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          }
+        ],
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/yyswys/estop/procedures/EStopRedstoneProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "EStop",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_stop",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/estop/blockstates/e_stop.json",
+          "src/main/resources/assets/estop/models/item/e_stop.json",
+          "src/main/resources/data/estop/loot_table/blocks/e_stop.json",
+          "src/main/java/net/yyswys/estop/block/EStopBlock.java",
+          "src/main/resources/assets/estop/models/block/e_stop.json"
+        ]
+      }
+    },
+    {
+      "name": "EStopRightClick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_stop_right_click",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/yyswys/estop/procedures/EStopRightClickProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "EStopRedstoneReversed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_stop_redstone_reversed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          }
+        ],
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/yyswys/estop/procedures/EStopRedstoneReversedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "CraftEStop",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_e_stop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/estop/recipe/craft_e_stop.json"
+        ]
+      }
+    },
+    {
+      "name": "EStopState",
+      "type": "blockstates",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_stop_state",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/estop/models/block/e_stop_state_blockstate_0.json"
+        ]
+      }
+    },
+    {
+      "name": "EStopInf",
+      "type": "jeiinformation",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_stop_inf",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "EStopReversed",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_stop_reversed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/yyswys/estop/block/EStopReversedBlock.java",
+          "src/main/resources/assets/estop/models/item/e_stop_reversed.json",
+          "src/main/resources/assets/estop/models/block/e_stop_reversed.json",
+          "src/main/resources/assets/estop/blockstates/e_stop_reversed.json",
+          "src/main/resources/data/estop/loot_table/blocks/e_stop_reversed.json"
+        ]
+      }
+    },
+    {
+      "name": "ReverseEStop",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reverse_e_stop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/estop/recipe/reverse_e_stop.json"
+        ]
+      }
+    },
+    {
+      "name": "NormalizeEStop",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "normalize_e_stop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/estop/recipe/normalize_e_stop.json"
+        ]
+      }
+    },
+    {
+      "name": "EStopReversedState",
+      "type": "blockstates",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e_stop_reversed_state",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/estop/models/block/e_stop_reversed_state_blockstate_0.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:buttons": [
+      "CUSTOM:EStop",
+      "CUSTOM:EStopReversed"
+    ],
+    "ITEMS:minecraft:buttons": [
+      "CUSTOM:EStop",
+      "CUSTOM:EStopReversed"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.estop.e_stop": "E-Stop",
+      "jei.estop.e_stop_inf": "When right-click the e-stop button, it will turn activate\nIn order to disactive it, you need to right-click it when you are sneaking",
+      "block.estop.e_stop_reversed": "E-Stop (reversed)"
+    },
+    "zh_cn": {
+      "block.estop.e_stop": "急停按钮",
+      "jei.estop.e_stop_inf": "右键以激活该按钮，若想要关闭，需要潜行+右键来关闭此按钮",
+      "block.estop.e_stop_reversed": "急停按钮（反相）"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/yyswys/estop/EstopMod.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/yyswys/estop/init/EstopModTabs.java",
+      "src/main/java/net/yyswys/estop/init/EstopModJeiInformation.java",
+      "src/main/java/net/yyswys/estop/init/EstopModBrewingRecipes.java",
+      "src/main/java/net/yyswys/estop/init/EstopModBlocks.java",
+      "src/main/java/net/yyswys/estop/init/EstopModItems.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "estop",
+    "modName": "E-stop",
+    "version": "1.0.0",
+    "author": "GlcDeamino",
+    "websiteURL": "https://space.bilibili.com/610136293",
+    "license": "Apache License version 2.0",
+    "serverSideOnly": false,
+    "modPicture": "e-stop_screenshot",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "jei"
+    ],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.yyswys.estop"
+  },
+  "mcreatorVersion": 202500228610
+}

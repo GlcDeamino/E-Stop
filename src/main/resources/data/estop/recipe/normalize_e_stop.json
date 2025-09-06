@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "estop:e_stop_reversed"
+    }
+  },
+  "result": {
+    "id": "estop:e_stop",
+    "count": 1
+  }
+}

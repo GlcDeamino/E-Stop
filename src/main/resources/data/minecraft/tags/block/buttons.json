@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "estop:e_stop_reversed",
+    "estop:e_stop"
+  ]
+}

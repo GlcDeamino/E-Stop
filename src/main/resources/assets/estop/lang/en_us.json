@@ -1,0 +1,5 @@
+{
+  "block.estop.e_stop": "E-Stop",
+  "jei.estop.e_stop_inf": "When right-click the e-stop button, it will turn activate\nIn order to disactive it, you need to right-click it when you are sneaking",
+  "block.estop.e_stop_reversed": "E-Stop (reversed)"
+}
