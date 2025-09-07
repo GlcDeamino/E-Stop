@@ -4,12 +4,13 @@ license="Apache License version 2.0"
 
 [[mods]]
 modId="estop"
-version="1.0.0"
+version="1.0.1"
 displayName="E-stop"
 displayURL="https://space.bilibili.com/610136293"
 logoFile="logo.png"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 authors="GlcDeamino"
+description="A simple mod that added E-stop button."
 
 # Start of user code block mod configuration
 # End of user code block mod configuration

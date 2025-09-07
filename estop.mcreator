@@ -223,7 +223,8 @@
   "workspaceSettings": {
     "modid": "estop",
     "modName": "E-stop",
-    "version": "1.0.0",
+    "version": "1.0.1",
+    "description": "A simple mod that added E-stop button.",
     "author": "GlcDeamino",
     "websiteURL": "https://space.bilibili.com/610136293",
     "license": "Apache License version 2.0",

@@ -2,7 +2,7 @@
   "parent": "estop:custom/e-stop",
   "textures": {
     "all": "estop:block/e-stop",
-    "particle": "estop:block/e-stop",
+    "particle": "estop:block/estop_break",
     "0": "estop:block/e-stop",
     "1": "estop:block/e_stop_frame"
   },
